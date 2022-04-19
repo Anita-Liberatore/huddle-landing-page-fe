@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+
+/* Start general CSS*/
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  
+  body {
+    font-family: "Open Sans", sans-serif;
+    color: #333;
+    line-height: 1.6;
+  }
+
+  .header {
+    background-color: #edfbff;
+    padding: 4.8rem 0 7.1rem 0;
+    background: linear-gradient( 75.17deg, rgba(255, 255, 255, 0.0001) -65.71%, #c9f0ff 125.65% ), url(../images/bg-hero-desktop.svg) top center/cover no-repeat;
+    margin-bottom: 16.1rem;
+  }
+
+  img {
+      width: 100%;
+  }
+
+  .logo {
+    width: 17.4%;
+  }
+
+  .navbar .flex {
+      justify-content: space-between;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  /* btn */
+.btn {
+    background-color: #fff;
+    position: relative;
+    padding: 1rem 3.75rem;
+    border-radius: 3rem;
+    cursor: pointer;
+    border: 0;
+    color: black;
+    font-weight: 600;
+    box-shadow: 0px 3px 11px rgb(0 0 0 / 10%);
+  }
+
+  /*showcase */
+  .showcase {
+      height: 400px;
+      padding: 100px;
+      position: relative;
+  }
+
+  .showcase h1 {
+      font-size: 40px;
+  }
+
+  .showcase p {
+      margin: 20px 0;
+  }
+
+  .pink {
+    display: inline-block;
+    border-radius: 2.8rem;
+    background-color: #ff52c1;
+    color: #fff;
+    box-shadow: 2px 3px 6px 1px rgb(255 82 193 / 17%);
+  }
