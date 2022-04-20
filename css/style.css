@@ -21,7 +21,7 @@
     background-color: #edfbff;
     padding: 4.8rem 0 7.1rem 0;
     background: linear-gradient( 75.17deg, rgba(255, 255, 255, 0.0001) -65.71%, #c9f0ff 125.65% ), url(../images/bg-hero-desktop.svg) top center/cover no-repeat;
-    margin-bottom: 16.1rem;
+    /*margin-bottom: 16.1rem; */
   }
 
   img {
@@ -62,3 +62,73 @@
     color: #fff;
     box-shadow: 2px 3px 6px 1px rgb(255 82 193 / 17%);
   }
+
+  .about-img {
+    width: 40%;
+  }
+
+  .card {
+    padding: 2.3rem 6.5rem 4rem 8rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 3.5rem 0;
+  }
+
+  .cards-main {
+    margin: 7.5rem 0;
+  }
+
+  .card-one, .card-two, .card-three {
+    width: 50%;
+  }
+
+  .text {
+    color: #808e9a;
+  }
+
+  .heading {
+    margin: 0 0 10px;
+  }
+
+  /* Footer */
+.footer {
+  background-color: #00252e;
+  color: #fff;
+  padding: 14.4rem 0 6.4rem 0;
+}
+
+.logo-footer {
+  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%);
+  width: 50%;
+  margin-bottom: 3.2rem;
+}
+
+.footer-flex {
+    width: 90%;
+    max-width: 124.2rem;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.info-section {
+  display: flex;
+  flex-direction: column;
+  width: 30.6%;
+}
+
+.location-img {
+    align-self: flex-start;
+    height: auto;
+    width: 2.4rem;
+}
+
+.location-box {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1.6rem;
+    margin-bottom: 1.6rem;
+}
