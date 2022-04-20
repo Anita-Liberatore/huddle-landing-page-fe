@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
 
-/* Start general CSS*/
+/* Start General CSS */
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -13,6 +14,8 @@
     color: #333;
     line-height: 1.6;
   }
+
+  /* Header */
 
   .header {
     background-color: #edfbff;
@@ -37,20 +40,7 @@
     text-decoration: none;
   }
 
-  /* btn */
-.btn {
-    background-color: #fff;
-    position: relative;
-    padding: 1rem 3.75rem;
-    border-radius: 3rem;
-    cursor: pointer;
-    border: 0;
-    color: black;
-    font-weight: 600;
-    box-shadow: 0px 3px 11px rgb(0 0 0 / 10%);
-  }
-
-  /*showcase */
+  /* Showcase */
   .showcase {
       height: 400px;
       padding: 100px;
