@@ -1,5 +1,5 @@
-/* Mobile */
-@media(max-width: 500px) {
+
+@media(max-width: 768px) {
 
     .card-one,
     .card-two,
@@ -26,12 +26,8 @@
         flex-direction: column-reverse;
     }
 
-    .flowing-conversation {
-        flex-direction: column;
-    }
-
     .card-community {
-        width: 80%;
+        width: 85%;
         position: absolute;
         right: auto;
         left: auto;
@@ -96,6 +92,7 @@
     .footer-flex {
         display: block;
         width: 100%;
+        overflow: hidden;
     }
 
     .location-box, .phone-box, .mail-box {
@@ -119,5 +116,6 @@
     .links-page {
         display: block;
     }
+
 
 }
