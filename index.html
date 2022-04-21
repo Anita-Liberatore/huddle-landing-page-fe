@@ -10,8 +10,9 @@
   <link rel="stylesheet" href="css/utilities.css" />
   <link rel="stylesheet" href="css/style.css" />
   <link rel="stylesheet" href="css/responsive.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
-
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
   <title>Frontend Mentor | Huddle landing page with alternating feature blocks</title>
 
 </head>
@@ -29,12 +30,12 @@
 
 
     <section class="showcase">
-      <div class="container flex">
+      <div class="container flex flex-mobile">
         <div class="container-text">
           <h1>Build The Community Your Fans Will Love</h1>
           <p>Huddle re-imagines the way we build communities. You have a voice, but so does your audience. Create
             connections with your users as you engage in genuine discussion.</p>
-          <a href="#" class="btn btn-outline pink">Get Started For Free</a>
+          <a href="#" class="btn btn-outline pink btn-mobile">Get Started For Free</a>
         </div>
         <div class="showcase-img">
           <img src="images/illustration-mockups.svg" alt="" class="hero-img">
@@ -45,7 +46,7 @@
 
 
   <section class="cards-main">
-    <div class="container grid">
+    <div class="container grid cards-section">
       <div class="card flex">
         <div class="card-one">
           <h2 class="heading">Grow Together</h2>
@@ -58,7 +59,7 @@
         <img src="images/illustration-grow-together.svg" alt="" class="about-img">
       </div>
 
-      <div class="card flex">
+      <div class="card flex flowing-conversation">
         <img src="images/illustration-flowing-conversation.svg" alt="" class="about-img">
         <div class="card-two">
           <h2 class="heading">Flowing Conversations</h2>
@@ -80,6 +81,13 @@
         <img src="images/illustration-your-users.svg" alt="" class="about-img">
       </div>
 
+      <div class="card card-community">
+        <div class="card-four">
+          <h2 class="heading community">Ready To Build Your Community?</h2>
+          <a href="#" class="btn btn-outline pink community">Get Started For Free</a>
+        </div>
+      </div>
+
 
     </div>
   </section>
@@ -87,9 +95,10 @@
 
   <!-- Footer -->
   <footer class="footer bg-dark py-5">
+
     <div class="container footer-flex">
 
-       <!-- 1 column -->
+      <!-- 1 column -->
       <div class="info-section">
         <img class="logo-footer" src="images/logo.svg" />
 
@@ -100,27 +109,42 @@
             eiusmod tempor incididunt ut labore et dolore magna aliqua
           </p>
         </div>
-        
+
+        <div class="phone-box">
+          <img src="images/icon-phone.svg" alt="phone icon" class="phone-img">
+          <p class="phone-description">
+            +1-543-123-4567
+          </p>
+        </div>
+
+        <div class="mail-box">
+          <img src="images/icon-email.svg" alt="phone icon" class="mail-img">
+          <p class="mail-description">
+            example@huddle.com
+          </p>
+        </div>
+
       </div>
 
-      <!--Section Links 2 column -->
-      <nav>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="features.html">Features</a></li>
-          <li><a href="docs.html">Docs</a></li>
-        </ul>
-      </nav>
+      <div class="links-page">
+        <!--Section Links 2 column -->
+        <nav>
+          <ul>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">What We Do</a></li>
+            <li><a href="#">FAQ</a></li>
+          </ul>
+        </nav>
 
-      <!--Section Links 3 column -->
-      <nav>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="features.html">Features</a></li>
-          <li><a href="docs.html">Docs</a></li>
-        </ul>
-      </nav>
-
+        <!--Section Links 3 column -->
+        <nav>
+          <ul>
+            <li><a href="#">Career</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+        </nav>
+      </div>
       <!--Social Links 4 column -->
       <div class="social">
         <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
@@ -129,6 +153,10 @@
       </div>
     </div>
 
+    <p class="copyright">
+      © Copyright 2022 Huddle. All rights reserved. This challenge was made by <a
+        href="https://www.linkedin.com/in/anitaliberatore/">Anita Liberatore</a> for Frontendmentor
+    </p>
   </footer>
 
 
