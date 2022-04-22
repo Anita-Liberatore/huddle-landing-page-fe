@@ -3,7 +3,7 @@
     .card-community {
         position: absolute;
         right: auto;
-        left: 15rem;
+        left: 22rem;
     }
 }
 
@@ -222,7 +222,7 @@
         font-size: 19px;
         font-weight: bold;
     }
-    
+
     img {
         width: 100%;
     }
