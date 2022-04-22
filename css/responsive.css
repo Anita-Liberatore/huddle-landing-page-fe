@@ -1,3 +1,98 @@
+@media(max-width: 1440px) {
+
+    .card-community {
+        position: absolute;
+        right: auto;
+        left: 15rem;
+    }
+}
+
+@media(max-width: 1000px) { 
+    .card-one,
+    .card-two,
+    .card-three {
+        width: 100%;
+        text-align: center;
+        margin: 20px;
+    }
+
+    .about-img {
+        width: 100%;
+    }
+
+    .header {
+        height: 45rem;
+    }
+
+    .card {
+        padding: 25px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 3.5rem 0;
+        flex-direction: column-reverse;
+    }
+
+    img {
+        width: 55%;
+    }
+
+    .card-community {
+        width: 85%;
+        position: absolute;
+        right: auto;
+        left: auto;
+    }
+
+    .cards-section {
+        margin: 125px 0;
+    }
+
+    .cards-main {
+        margin-top: -7rem;
+    }
+
+    .btn-mobile {
+        padding: 10px 45px !important;
+    }
+
+    .header {
+        padding: 1.8rem 0 7.1rem 0;
+    }
+
+    .logo {
+        width: 30%;
+    }
+
+    .btn {
+        padding: 5px 20px;
+        font-size: 13px;
+
+    }
+
+    .showcase {
+        position: relative;
+        padding: 0;
+        margin-top: 70px;
+
+    }
+
+    .showcase h1 {
+        font-size: 21px;
+        font-weight: bold;
+    }
+
+    .flex-mobile {
+        display: block;
+        text-align: center;
+        margin: 40px;
+    }
+
+    .showcase-img {
+        margin-top: 35px;
+    }
+
+}
 
 @media(max-width: 768px) {
 
@@ -117,5 +212,32 @@
         display: block;
     }
 
+
+}
+
+
+@media(max-width: 375px) { 
+
+    .showcase h1 {
+        font-size: 19px;
+        font-weight: bold;
+    }
+    
+    img {
+        width: 100%;
+    }
+
+    .heading {
+        font-size: 16px;
+    }
+
+    .card-community {
+        width: 79%;
+    }
+
+    .heading {
+        font-size: 14px;
+        font-weight: bold;
+    }
 
 }
