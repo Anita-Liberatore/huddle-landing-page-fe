@@ -7,7 +7,16 @@
     }
 }
 
-@media(max-width: 1000px) { 
+@media (max-width: 1024px) {
+    .card-community {
+        position: absolute;
+        right: auto;
+        left: 15rem;
+    }
+}
+
+@media(max-width: 1000px) {
+
     .card-one,
     .card-two,
     .card-three {
@@ -190,7 +199,9 @@
         overflow: hidden;
     }
 
-    .location-box, .phone-box, .mail-box {
+    .location-box,
+    .phone-box,
+    .mail-box {
         width: 20rem;
     }
 
@@ -216,7 +227,7 @@
 }
 
 
-@media(max-width: 375px) { 
+@media(max-width: 375px) {
 
     .showcase h1 {
         font-size: 19px;
@@ -238,6 +249,10 @@
     .heading {
         font-size: 14px;
         font-weight: bold;
+    }
+
+    .btn {
+        font-size: 12px;
     }
 
 }
